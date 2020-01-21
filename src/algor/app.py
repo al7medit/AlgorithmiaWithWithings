@@ -6,7 +6,7 @@ from flask import render_template
 from settings import *
 
 from datetime import timedelta
-from withings import WithingsApi, WithingsCredentials
+from withings_api import WithingsApi, WithingsCredentials
 
 
 ALGORITHMIA_CLIENT = Algorithmia.client(ALGORITHMIA_KEY)
